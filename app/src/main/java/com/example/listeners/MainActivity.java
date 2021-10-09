@@ -24,7 +24,6 @@ public class MainActivity extends AppCompatActivity implements View.OnLongClickL
 
         btn_blue = (Button) findViewById(R.id.btn_blue);
         btn_red = (Button) findViewById(R.id.btn_red);
-
         btn_red.setOnLongClickListener(this);
 
         btn_blue.setOnClickListener(new View.OnClickListener() {
